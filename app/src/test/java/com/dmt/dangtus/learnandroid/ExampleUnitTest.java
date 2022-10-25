@@ -1,4 +1,4 @@
-package com.example.listrecyclerview;
+package com.dmt.dangtus.learnandroid;
 
 import org.junit.Test;
 

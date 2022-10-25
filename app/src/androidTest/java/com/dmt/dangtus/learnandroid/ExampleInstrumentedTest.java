@@ -1,4 +1,4 @@
-package com.example.listrecyclerview;
+package com.dmt.dangtus.learnandroid;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.listrecyclerview", appContext.getPackageName());
+        assertEquals("com.dmt.dangtus.learnandroid", appContext.getPackageName());
     }
 }
