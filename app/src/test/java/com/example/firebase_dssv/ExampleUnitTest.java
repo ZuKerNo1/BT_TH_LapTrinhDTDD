@@ -1,4 +1,4 @@
-package com.example.sqlite;
+package com.example.firebase_dssv;
 
 import org.junit.Test;
 

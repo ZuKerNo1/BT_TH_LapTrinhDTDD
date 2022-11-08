@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/UTE/122/LapTrinhTrenDTDD/SQLite/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/UTE/122/LapTrinhTrenDTDD/SQLite/app/src/main/res/layout/computer_item.xml" value="0.25416666666666665" />
-        <entry key="..\:/UTE/122/LapTrinhTrenDTDD/SQLite/app/src/main/res/layout/item_cb.xml" value="0.253125" />
+        <entry key="..\:/UTE/122/LapTrinhTrenDTDD/FireBase_DSSV/app/src/main/res/layout/activity_main.xml" value="0.17216117216117216" />
+        <entry key="..\:/UTE/122/LapTrinhTrenDTDD/FireBase_DSSV/app/src/main/res/layout/activity_register.xml" value="0.14945652173913043" />
+        <entry key="..\:/UTE/122/LapTrinhTrenDTDD/FireBase_DSSV/app/src/main/res/layout/activity_sign_in.xml" value="0.25416666666666665" />
+        <entry key="..\:/UTE/122/LapTrinhTrenDTDD/FireBase_DSSV/app/src/main/res/layout/activity_sign_up.xml" value="0.176" />
+        <entry key="..\:/UTE/122/LapTrinhTrenDTDD/FireBase_DSSV/app/src/main/res/layout/listview_item.xml" value="0.2" />
+        <entry key="..\:/UTE/122/LapTrinhTrenDTDD/FireBase_DSSV/app/src/main/res/menu/popup_menu.xml" value="0.16" />
       </map>
     </option>
   </component>
