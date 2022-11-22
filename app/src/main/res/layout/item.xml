@@ -11,6 +11,7 @@
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/itemRecycle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
@@ -56,6 +57,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Tên khoa học"
+            android:visibility="gone"
             android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold"
@@ -68,6 +70,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Đặc tính"
+            android:visibility="gone"
             android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold"
@@ -81,6 +84,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Màu lá"
+            android:visibility="gone"
             android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold"

@@ -17,7 +17,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class AddActivity extends AppCompatActivity {
     EditText Editname, EditscienceName, Editnature, EditleafColor;
-    Button them;
+    Button them, back;
     DatabaseReference databaseReference;
     FirebaseDatabase database = FirebaseDatabase.getInstance();
 
@@ -52,6 +52,15 @@ public class AddActivity extends AppCompatActivity {
                         }
                     }
                 });
+            }
+        });
+
+        back = findViewById(R.id.backBtn);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(AddActivity.this, MainActivity.class);
+                startActivity(intent);
             }
         });
     }

@@ -2,6 +2,8 @@ package com.example.baiktra2;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
@@ -12,6 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -51,6 +54,13 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         holder.nature.setText(tree.getNature());
         holder.leafColor.setText(tree.getLeafColor());
 
+        holder.constraintLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                GoToDetail(tree);
+            }
+        });
+
         holder.btnMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -81,6 +91,17 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     }
 
+    private void GoToDetail(Tree tree) {
+
+        Intent intent = new Intent(context, DetailActivity.class);
+        Bundle bundle = new Bundle();
+        bundle.putSerializable("object_user", tree);
+
+        intent. putExtras (bundle);
+
+        context.startActivity (intent);
+
+    }
 
 
     @Override
@@ -90,6 +111,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     public static class MyViewHolder extends RecyclerView.ViewHolder{
         TextView name, scienceName, nature, leafColor;
+        ConstraintLayout constraintLayout;
         ImageView btnMenu;
         @SuppressLint("ResourceType")
         public MyViewHolder(@NonNull View itemView) {
@@ -101,6 +123,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
             leafColor = itemView.findViewById(R.id.tvLeafColor);
 
             btnMenu = itemView.findViewById(R.id.menu);
+            constraintLayout = itemView.findViewById(R.id.itemRecycle);
         }
     }
 }

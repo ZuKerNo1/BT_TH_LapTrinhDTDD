@@ -1,6 +1,8 @@
 package com.example.baiktra2;
 
-public class Tree {
+import java.io.Serializable;
+
+public class Tree implements Serializable {
     String name, scienceName, nature, leafColor;
 
     public Tree() {
