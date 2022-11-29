@@ -7,7 +7,15 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
     <color name="background">#C45BAA</color>
     <color name="text_or_icon">#FFFFFF</color>
     <color name="secondary_text">#B8BBC6</color>
+    <color name="dashboard_item_1">#640D14</color>
+    <color name="dashboard_item_2">#77BA99</color>
+    <color name="dashboard_item_3">#E64000</color>
+    <color name="dashboard_item_4">#F6B900</color>
+    <color name="dashboard_item_5">#C68866</color>
+    <color name="dashboard_item_6">#053225</color>
+    <color name="dashboard_item_7">#006E90</color>
 </resources>

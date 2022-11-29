@@ -3,15 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/UTE/122/LapTrinhTrenDTDD/BaiKtra2/app/src/main/res/drawable/background_wave.xml" value="0.177" />
-        <entry key="..\:/UTE/122/LapTrinhTrenDTDD/BaiKtra2/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.177" />
-        <entry key="..\:/UTE/122/LapTrinhTrenDTDD/BaiKtra2/app/src/main/res/layout/activity_add.xml" value="0.25416666666666665" />
-        <entry key="..\:/UTE/122/LapTrinhTrenDTDD/BaiKtra2/app/src/main/res/layout/activity_detail.xml" value="0.25416666666666665" />
-        <entry key="..\:/UTE/122/LapTrinhTrenDTDD/BaiKtra2/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
-        <entry key="..\:/UTE/122/LapTrinhTrenDTDD/BaiKtra2/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
-        <entry key="..\:/UTE/122/LapTrinhTrenDTDD/BaiKtra2/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
-        <entry key="..\:/UTE/122/LapTrinhTrenDTDD/BaiKtra2/app/src/main/res/layout/item.xml" value="0.25416666666666665" />
-        <entry key="..\:/UTE/122/LapTrinhTrenDTDD/BaiKtra2/app/src/main/res/menu/popup_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/UTE/122/LapTrinhTrenDTDD/BaiKtra3/app/src/main/res/drawable-v24/round_border.xml" value="0.204" />
+        <entry key="..\:/UTE/122/LapTrinhTrenDTDD/BaiKtra3/app/src/main/res/layout/activity_cong.xml" value="0.25416666666666665" />
+        <entry key="..\:/UTE/122/LapTrinhTrenDTDD/BaiKtra3/app/src/main/res/layout/activity_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/UTE/122/LapTrinhTrenDTDD/BaiKtra3/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/UTE/122/LapTrinhTrenDTDD/BaiKtra3/app/src/main/res/layout/cong_item.xml" value="0.253125" />
+        <entry key="..\:/UTE/122/LapTrinhTrenDTDD/BaiKtra3/app/src/main/res/layout/detail_item.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
